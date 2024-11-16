@@ -1,4 +1,4 @@
-FROM alpine:3.20.2
+FROM alpine:3.20.3
 
 RUN addgroup -g '100000' 'alpine' && adduser -D -G 'alpine' -u '100000' 'alpine'
 
